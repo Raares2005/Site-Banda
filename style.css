@@ -60,8 +60,9 @@ button {
 
 .cta button {
     background-color: var(--txtColor);
-    /* rgba(197, 143, 0) */
+    margin-bottom: 10px;
     height: 50px;
+
 }
 
 button:hover {
@@ -77,6 +78,7 @@ button:hover {
     padding: 100px 100px 25px 100px;
     position: static;
     z-index:0;
+
 }
 
 /* TITLE */
@@ -112,6 +114,43 @@ button:hover {
 
 .music-button {
     position: absolute;
+
+}
+
+/* TITLE */
+
+.text-wrapper{
+    position: absolute;
+    top: 14%; 
+    background-color: transparent; 
+    z-index: 12;
+}
+
+.text-wrapper h1{
+    color: var(--txtColor);
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-size: 900%;
+    background-color: transparent;
+}
+
+/* Band info */
+
+.band-info{
+    position: relative;
+    padding-left:5.5%;
+}
+
+.band-info p{
+    font-size: 125%;
+    color: var(--txtColor);
+}
+
+/* Buton | Listen Music */
+
+.music-button {
+    position: absolute;
+
     left: 80%;
     top: 1265px;
 }
