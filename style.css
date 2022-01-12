@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+
+
 * { 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #222;
+    background-color: #0a0a08;
+    --txtColor: #C58F00;
 }
 
 
@@ -12,8 +15,9 @@ li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #C58F00;
+    color: var(--txtColor);
     text-decoration: none;
+    
 }
 
 header {
@@ -25,6 +29,7 @@ header {
 
 nav {
     order: 1;
+    
 }
 
 .nav_links {
@@ -44,18 +49,20 @@ nav {
     color: #FFD580;
 }
 
-.cta {
-    height: 50px;
-}
-
 button {
     padding: 9px 25px;
     color: #222;
-    background-color: rgba(197, 143, 0);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+}
+
+.cta button {
+    background-color: var(--txtColor);
+    height: 50px;
+    margin-bottom: 10px;
+
 }
 
 button:hover {
@@ -63,19 +70,56 @@ button:hover {
 }
 
 
+/* Background image */
+
 
 .img-band {
     width: 100%;
-    padding: 100px 100px;
-    
+    padding: 100px 100px 25px 100px;
+    position: static;
+    z-index:0;
 }
 
-.text-wrapper {
-    size: 10px;
-    color: #C58F00;
+/* TITLE */
+
+.text-wrapper{
     position: absolute;
-    width: 100px;
-    top: 25%;
-    padding-left: 100px;
-    
+    top: 14%; 
+    background-color: transparent; 
+    z-index: 12;
+}
+
+.text-wrapper h1{
+    color: var(--txtColor);
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-size: 900%;
+    background-color: transparent;
+}
+
+/* Band info */
+
+.band-info{
+    position: relative;
+    padding-left:5.5%;
+}
+
+.band-info p{
+    font-size: 125%;
+    color: var(--txtColor);
+}
+
+/* Buton | Listen Music */
+
+.music-button {
+    position: absolute;
+    left: 80%;
+    top: 1265px;
+}
+
+.music-button button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--txtColor);
+    color: var(--txtColor);
 }
