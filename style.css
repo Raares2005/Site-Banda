@@ -49,19 +49,19 @@ nav {
     color: #FFD580;
 }
 
-.cta {
-    height: 50px;
-}
-
 button {
     padding: 9px 25px;
     color: #222;
-    background-color: var(--txtColor);
-    /* rgba(197, 143, 0) */
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+}
+
+.cta button {
+    background-color: var(--txtColor);
+    /* rgba(197, 143, 0) */
+    height: 50px;
 }
 
 button:hover {
@@ -105,5 +105,20 @@ button:hover {
 
 .band-info p{
     font-size: 125%;
+    color: var(--txtColor);
+}
+
+/* Buton | Listen Music */
+
+.music-button {
+    position: absolute;
+    left: 80%;
+    top: 1265px;
+}
+
+.music-button button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--txtColor);
     color: var(--txtColor);
 }
