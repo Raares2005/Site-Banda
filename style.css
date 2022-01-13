@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-
-
 * { 
     box-sizing: border-box;
     margin: 0;
@@ -114,45 +112,9 @@ button:hover {
 
 .music-button {
     position: absolute;
-
-}
-
-/* TITLE */
-
-.text-wrapper{
-    position: absolute;
-    top: 14%; 
-    background-color: transparent; 
-    z-index: 12;
-}
-
-.text-wrapper h1{
-    color: var(--txtColor);
-    padding-left: 10%;
-    padding-bottom: 10%;
-    font-size: 900%;
-    background-color: transparent;
-}
-
-/* Band info */
-
-.band-info{
-    position: relative;
-    padding-left:5.5%;
-}
-
-.band-info p{
-    font-size: 125%;
-    color: var(--txtColor);
-}
-
-/* Buton | Listen Music */
-
-.music-button {
-    position: absolute;
-
     left: 80%;
-    top: 1265px;
+    top: 148%;
+    background-color: transparent;
 }
 
 .music-button button{
