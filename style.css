@@ -63,7 +63,9 @@ nav {
 
 button {
     padding: 10px 15px;
+
     padding-bottom: 30px;
+
     color: #222;
     border: none;
     border-radius: 50px;
@@ -75,6 +77,7 @@ button {
     background-color: var(--txtColor);
     margin-bottom: 10px;
     height: 10px;
+    height: 30px;
 }
 
 button:hover {
@@ -127,6 +130,7 @@ button:hover {
 .music-button {
     position: absolute;
     left: 4%;
+
     background-color: transparent;
 }
 
@@ -172,6 +176,21 @@ button:hover {
     }
 
 
+
+    top: %;
+    background-color: transparent;
+}
+
+.music-button button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--txtColor);
+    color: var(--txtColor);
+}
+
+/* Responsivness */
+
+@media only screen and (min-width:768px){
 
 
 }
