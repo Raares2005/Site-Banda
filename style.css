@@ -168,17 +168,13 @@ button:hover {
         background-color: #c58f00;
         display: block;
         cursor: pointer;
-        transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 1s;
     }
 
     .hamburger:hover {
         background-color: var(--txtColor);
     }
 
-
-
-    top: %;
-    background-color: transparent;
 }
 
 .music-button button{
