@@ -1,24 +1,11 @@
-const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav_links");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-}
-
-
-
- .hamburger.active .bar:nth-child(2) {
-     opacity: 0;
- }
-
- .hamburger.active .bar:nth-child(1) {
-     transform: translateY(8px) rotate(45deg);
- }
-
- .hamburger.active .bar:nth-child(3) {
-     transform: translateY(-8px) rotate(-45deg);
- }
-
+const menuBtn = document.querySelector('.menu-btn')
+let menuOpen = false;
+menuBtn.addEventListener('click', () =>{
+    if(!menuOpen){
+        menuBtn.classList.add('open');
+        menuOpen = true;
+    } else {
+        menuBtn.classList.remove('open');
+        menuOpen = false;
+    }
+});
