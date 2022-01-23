@@ -62,6 +62,11 @@ header hr{
     transition: all 0.3s ease 0s;
 }
 
+.burger li{
+    display: inline-table;
+    padding: 0px 10px;
+}
+
 .nav_links li a:hover {
     color: #FFD580;
 }
