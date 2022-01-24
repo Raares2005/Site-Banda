@@ -22,20 +22,26 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10px;
+    padding: 10px 10px;
 }
 
 nav {
     order: 1;
 }
 
+header hr{
+    top:39px;
+    position:absolute;
+    color:var(--txtColor);
+    height: 2px;
+    padding: 0px 20px;
+    width: 100%;
+}
+
 .nav_links {
     list-style: none;
 }
 
-.hamburger {
-    display: none;
-}
 
 .bar {
     display: block;
@@ -54,6 +60,11 @@ nav {
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
+}
+
+.burger li{
+    display: inline-table;
+    padding: 0px 10px;
 }
 
 .nav_links li a:hover {
@@ -78,13 +89,62 @@ button {
     margin-bottom: 10px;
     height: 10px;
     height: 30px;
+    display: none;
 }
 
 button:hover {
     background-color: rgb(255, 255, 204);
 }
 
+/* BURGIR MENU */
 
+.menu-btn{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height:43px;
+    background-color: transparent;
+}
+
+.menu-btn__burger{
+    height:3px;
+    width: 25px;
+    background-color: var(--txtColor);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before, .menu-btn__burger::after{
+    content: '';
+    position: absolute;
+    height:3px;
+    width: 25px;
+    background: var(--txtColor);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before{
+    transform:translateY(-8px);
+}
+
+.menu-btn__burger::after{
+    transform: translateY(8px);
+}
+
+/* Animation */
+
+.menu-btn.open .menu-btn__burger{
+    transform: translateX(-50px);
+    background: transparent;
+}
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+
+}
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
 /* Background image */
 
 
