@@ -1,13 +1,15 @@
-const menuBtn = document.querySelector('.menu-btn')
-let menuOpen = false;
+const hamburger = document.querySelector('.menu-btn__burger')
+let hamburger = false;
 menuBtn.addEventListener('click', () =>{
-    if(!menuOpen){
+    if(!hamburger){
         menuBtn.classList.add('open');
 
-        menuOpen = true;
+        hamburger = true;
     } else {
         menuBtn.classList.remove('open');
 
-        menuOpen = false;
+        hamburger = false;
     }
 });
+
+
