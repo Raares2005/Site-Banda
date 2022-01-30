@@ -41,20 +41,22 @@ li, a, button {
 
 .text-center.text-warning {
     background-color: #141412;  
-    height: 200px;
-    position: relative;
+    position: fixed;
     bottom: 0;
-    margin-bottom: 0;
+    left: 0px;
+    width: 100%;
+
 }
 
 .text-center.p-3 {
     margin-top: 100px;
 }
 
+
+
 .container.p-4.pb-0 {
    
     height: 10px;
-    margin-top: 20px;
 }
 
 hr {
@@ -64,11 +66,12 @@ hr {
     color: #C58F00;    
 }
 
-.btn.btn-outline-light.btn-floating.m-1 {
-    padding: 5px;
+.btn.btn-outline-light.btn-floating.m-2 {
+    padding: 20px;
     border: solid;
     border-color: #0a0a08;
-    border-radius: 10px;
+    border-radius: 9px;
+    
    
 }
 
@@ -78,7 +81,12 @@ hr {
 }
 
 .fa {
+    
     color: #C58F00;
+}
+
+.fa.fa-facebook-f {
+    size: 2;
 }
 
 .offcanvas {
