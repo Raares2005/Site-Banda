@@ -4,8 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #0a0a08;
     --txtColor: #C58F00;
+}
+
+body {
+    background-color: #0a0a08;
+    overflow: hidden;
+    position: fixed;
 }
 
 
@@ -18,6 +23,67 @@ li, a, button {
     
 }
 
+.navbar-toggler{
+    margin-top: 5px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: var(tx);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(197, 143, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+
+.text-center.text-warning {
+    background-color: #141412;  
+    height: 200px;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+.text-center.p-3 {
+    margin-top: 100px;
+}
+
+.container.p-4.pb-0 {
+   
+    height: 10px;
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 100px;
+    margin: 0;
+    border: none;
+    color: #C58F00;    
+}
+
+.btn.btn-outline-light.btn-floating.m-1 {
+    padding: 5px;
+    border: solid;
+    border-color: #0a0a08;
+    border-radius: 10px;
+   
+}
+
+.btn.btn-outline-light.btn-floating.m-1:hover {
+    background-color: #333;
+    
+}
+
+.fa {
+    color: #C58F00;
+}
+
+.offcanvas {
+    background-color: #0a0a08;
+}
 
 button {
     padding: 10px 15px;
@@ -89,17 +155,20 @@ button:hover {
 /* Buton | Listen Music */
 
 .music-button {
-    position: absolute;
+    position: relative;
     left: 4%;
+    margin-top: 10px;
     padding-bottom: 10px;
     background-color: transparent;
+
 }
 
 .music-button button{
     border-style: solid;
     border-width: 1px;
     border-color: var(--txtColor);
-    color: var(--txtColor);
+    background-color: #0a0a08;
+    
 }
 
 /* Responsivness */
