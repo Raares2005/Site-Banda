@@ -55,12 +55,14 @@ button:hover {
 /* NAV */
 
 .custom-toggler.navbar-toggler {
-    border-color: var(tx);
+    background-color: #141412;
 }
 
 .navbar{
     overflow: hidden;
+    background-color: var(--txtColor);
 }
+
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url(
@@ -69,12 +71,15 @@ button:hover {
 
 .navbar-toggler{
     margin-top: 30px;
+
 }
 
 .offcanvas {
     background-color: #0a0a08;
     overflow: hidden;
 }
+
+
 
 
 /* Buton Contact */
@@ -90,10 +95,12 @@ button:hover {
 
 .img-band {
     width: 100%;
-    height: 500px;
-    padding: 93px 10px;  
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;  
     position: relative;
-    top: 50px;
+    top: -100px;
     z-index:0;
 
 }
@@ -101,7 +108,7 @@ button:hover {
 /* TITLE */
 
 .text-wrapper{
-    position: absolute;
+    position: relative;
     top: 70px; 
     background-color: transparent; 
     z-index: 1;
@@ -193,3 +200,55 @@ footer{
 .fa.fa-facebook-f {
     size: 2;
 }
+
+
+
+/* TABLETA */
+
+@media only screen and (min-width:768px) {
+
+
+
+.main {
+    margin: auto;
+    max-width: 768px;
+}
+
+.music-button {
+    margin-right: 50px;
+}
+
+.under-image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.info-txt {
+    margin-top: 55px;
+}
+
+
+.container-fluid .custom-toggler.navbar-toggler {
+    display: none;
+}
+
+
+
+.navbar.navbar-dark.sticky-top {
+    margin-top: 0px;
+    height: 50px;
+    padding-top: 0px;
+    display: flex;
+}
+
+
+.nav-item {
+    display: flex;
+    
+}
+
+
+
+}
+    
