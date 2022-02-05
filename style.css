@@ -39,8 +39,6 @@ hr {
 
 button {
     padding: 10px 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     color: var(--txtColor);
     border: none;
     border-radius: 50px;
@@ -49,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(255, 255, 204);
+    background-color: rgb(110, 110, 33);
 }
 
 /* NAV */
@@ -71,24 +69,11 @@ button:hover {
 
 .navbar-toggler{
     margin-top: 30px;
-
 }
 
 .offcanvas {
     background-color: #0a0a08;
     overflow: hidden;
-}
-
-
-
-
-/* Buton Contact */
-.cta button {
-    background-color: var(--txtColor);
-    margin-bottom: 10px;
-    height: 10px;
-    height: 30px;
-    display: none;
 }
 
 /* Background image */
@@ -143,7 +128,6 @@ button:hover {
     margin-top: 10px;
     padding-bottom: 10px;
     background-color: transparent;
-
 }
 
 .music-button button{
@@ -200,7 +184,9 @@ footer{
 .fa.fa-facebook-f {
     size: 2;
 }
-
+.navbar-inline{
+    display: none;
+}
 
 
 /* TABLETA */
@@ -235,20 +221,43 @@ footer{
 
 
 
-.navbar.navbar-dark.sticky-top {
+.navbar.sticky-top {
     margin-top: 0px;
     height: 50px;
     padding-top: 0px;
     display: flex;
 }
 
-
-.nav-item {
+.navbar-inline{
     display: flex;
-    
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item{
+    margin: 0 10px;
+}
+
+a{
+    display: contents;
+    color: #0a0a08;
+} 
+#nav-link:hover{
+    color:navajowhite;
 }
 
 
 
+.cta {
+    background-color: #0a0a08;
+    height: 30px;
+    margin-right: 5px;
+    line-height: 0;
 }
-    
+}
