@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(110, 110, 33);
+    background-color: rgb(92, 71, 12);
 }
 
 /* NAV */
@@ -76,6 +76,18 @@ button:hover {
     background-color: #0a0a08;
     overflow: hidden;
 }
+
+.offcanvas-body a{
+    font-size: 25px;
+   
+}
+
+.nav-item {
+    margin-top: 10px;
+} 
+ 
+
+
 
 /* Background image */
 
@@ -174,9 +186,11 @@ footer{
     padding: 20px;
     border: solid;
     border-color: #0a0a08;
-    border-radius: 9px;
-    
-   
+    border-radius: 9px; 
+}
+
+.footer-social-link:hover {
+    background-color: rgb(92, 71, 12);
 }
 
 .fa {
@@ -202,6 +216,12 @@ footer{
     max-width: 768px;
 }
 
+li {
+    font-weight: 250;
+    font-size:12px;
+    
+}
+
 .music-button {
     margin-right: 50px;
 }
@@ -223,7 +243,9 @@ footer{
 
 .img-band {
     height: 400px;
-    padding-right: 50px;
+    margin: auto;
+    width: 100%;
+    padding-left: 40px;
 }
 
 .navbar.sticky-top {
@@ -247,12 +269,13 @@ footer{
 
 .nav-item{
     margin: 0 10px;
-    
 }
 
 a{
     display: contents;
     color: #0a0a08;
+    font-size: 17px;
+    
 } 
 #nav-link:hover{
     color:navajowhite;
@@ -265,5 +288,8 @@ a{
     height: 30px;
     margin-right: 5px;
     line-height: 0;
+    font-size: 15px;
 }
+
+
 }
