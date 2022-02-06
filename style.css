@@ -38,6 +38,26 @@ hr {
     color: var(--txtColor);    
 }
 
+.members h2 {
+    color: var(--txtColor);
+    text-align: center;
+    
+}
+
+
+#members {
+   overflow: hidden;
+   margin: auto;
+}
+
+
+/* MEMBERS */
+
+.container-members {
+    display: flex;
+}
+
+
 button {
     padding: 10px 15px;
     color: var(--txtColor);
@@ -85,8 +105,6 @@ button:hover {
 .nav-item {
     margin-top: 10px;
 } 
- 
-
 
 
 /* Background image */
@@ -163,15 +181,15 @@ button:hover {
 
 footer{
     width:100%;
-    overflow: hidden;
     margin: 0;
 }
 
 .text-center.text-warning {
     background-color: #141412;  
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0px;
+    width: 100%;
 }
 
 .text-center.p-3 {
@@ -234,6 +252,7 @@ li {
 
 .info-txt {
     margin-top: 55px;
+    z-index: 1000;
 }
 
 
