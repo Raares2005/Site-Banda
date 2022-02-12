@@ -330,15 +330,4 @@ a{
     overflow: hidden;
 }
 
-
-    .site-slider .slider-btn-two .prev,
-    .site-slider .slider-btn-two .next {
-        background-color: var(--primary-color);
-        padding: 1rem 1.5rem;
-        border-radius: 10rem;
-        color: #fff;
-        margin: 0 2rem;
-        opacity: 0;
-        transition: opacity 1s ease;
-    }
 }
