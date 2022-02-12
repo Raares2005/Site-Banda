@@ -222,6 +222,16 @@ footer{
     display: none;
 }
 
+.site-slider-two {
+    position: relative;
+    height: 30%;
+}
+
+.container-members {
+    max-height: 400px;
+    overflow: hidden;
+}
+
 
 /* TABLETA & DESKTOP */
 
@@ -310,5 +320,14 @@ a{
     font-size: 15px;
 }
 
+.site-slider-two {
+    position: relative;
+    height: 30%;
+}
+
+.container-members {
+    height: 400px;
+    overflow: hidden;
+}
 
 }
