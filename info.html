@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
   <title>Banda Proiect |Site</title>
 </head>
 
@@ -94,39 +97,47 @@
       <div class="members text-warning">
         <h2><b>Band Members</b></h2>
       </div>
-      <div class="container-members container-fluid">
-        <div class="site-slider-two px-md-4">
-          <div class="row slider-two text-center">
-            <div class="col-md-3 product pt-md-5 pt-4 col-xs-12 col-sm-12">
-              <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3">
-              <span class="text-warning site-btn btn-span">Bogdan</span>
-            </div>
-            <div class="col-md-3 product pt-md-5 pt-4 col-xs-12 col-sm-12">
-              <img src="https://randomuser.me/api/portraits/men/15.jpg" class="rounded-circle mb-3">
-              <span class="text-warning site-btn btn-span">Trevor</span>
-            </div>
-            <div class="col-md-3 product pt-md-5 pt-4 col-xs-12 col-sm-12">
-              <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3">
-              <span class="text-warning site-btn btn-span">Grozavu</span>
-            </div>
-            <div class="col-md-3 product pt-md-5 pt-4 col-xs-12 col-sm-12">
-              <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3">
-              <span class="text-warning site-btn btn-span">Ana </span>
-            </div>
-            <div class="col-md-3 product pt-md-5 pt-4 col-xs-12 col-sm-12">
-              <img src="https://randomuser.me/api/portraits/men/18.jpg" class="rounded-circle mb-3">
-              <span class="text-warning site-btn btn-span">Mihai</span>
-            </div>
-            <div class="col-md-3 product pt-md-5 pt-4 col-xs-12 col-sm-12">
-              <img src="https://randomuser.me/api/portraits/men/7.jpg" class="rounded-circle mb-3">
-              <span class="text-warning site-btn btn-span">Florin</span>
+      <div id="carouselExampleFade" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Slider 1 -->
+          <div class="carousel-item active">
+            <div class="row g-5 ">
+              <div class="col-3"><img src="https://randomuser.me/api/portraits/men/12.jpg" class="d-block w-20">bodanel
+              </div>
+              <div class="col-3"><img src="https://randomuser.me/api/portraits/men/15.jpg" class="d-block w-20">bodanel
+              </div>
+              <div class="col-3"><img src="https://randomuser.me/api/portraits/women/16.jpg"
+                  class="d-block w-20">bodanel</div>
+              <div class="col-3"><img src="https://randomuser.me/api/portraits/men/12.jpg" class="d-block w-20">bodanel
+              </div>
+
             </div>
           </div>
-          <div class="slider-btn-two">
-            <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
-            <span class="next position-top right-0"><i class="fas fa-chevron-right fa-2x"></i></span>
+          <!-- end of slider 1 -->
+
+          <!-- Slider 2 -->
+          <div class="carousel-item">
+            <div class="row g-5">
+              <div class="col-3"><img src="https://randomuser.me/api/portraits/men/1.jpg" class="d-block w-20">bodanel
+              </div>
+              <div class="col-3"><img src="https://randomuser.me/api/portraits/men/2.jpg" class="d-block w-20">bodanel
+              </div>
+              <div class="col-3"><img src="https://randomuser.me/api/portraits/women/3.jpg" class="d-block w-20">bodanel
+              </div>
+              <div class="col-3"><img src="https://randomuser.me/api/portraits/men/20.jpg" class="d-block w-20">bodanel
+              </div>
+            </div>
           </div>
+          <!--  end of slider 2-->
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
       <!-- Footer  -->
