@@ -177,6 +177,21 @@ button:hover {
     text-align: justify;
 }
 
+/* TOUR */
+
+/* Tour general */
+
+.tour-general{
+    color: var(--txtColor);
+}
+
+/* Tour image */
+
+.tour-image{
+    width: 100%;
+    border-radius: 10%;
+}
+
 /* Footer */
 
 footer{
