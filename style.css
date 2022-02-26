@@ -192,6 +192,22 @@ button:hover {
     border-radius: 10%;
 }
 
+/* Tour Table */
+
+table thead {
+    display: none;
+  }
+  table td {
+    display: flex;
+  }
+  
+  table td::before {
+    content: attr(label);
+    font-weight: bold;
+    width: 120px;
+    min-width: 120px;
+  }
+
 /* Footer */
 
 footer{
@@ -361,6 +377,4 @@ a{
 .carousel-item.active.col-3:-child {
    margin-left: 100px;
 }
-
-
 }
