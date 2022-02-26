@@ -377,4 +377,9 @@ a{
 .carousel-item.active.col-3:-child {
    margin-left: 100px;
 }
+  
+.members-text {
+    margin-left: 30px;
+}
+
 }
