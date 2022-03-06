@@ -41,7 +41,6 @@ hr {
 .members h2 {
     color: var(--txtColor);
     text-align: center;
-    
 }
 
 
@@ -169,6 +168,42 @@ button:hover {
     background-color: #0a0a08;
     
 }
+
+/* INFO */
+
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out;
+    width:100%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: transparent;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+
+    border: solid;
+    border-radius: 10px;
+    border-color: #C58F00;
+    width: 30px;
+    top: 30px;
+    height: 40px;
+    background-color: #C58F00;
+}
+
+.col-4{
+    width: 128px;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+}
+  
+.members-text {
+    text-align: center;
+}
+
 
 /* Filler txt */
 .info-txt{
@@ -393,19 +428,9 @@ a{
     color:navajowhite;
 }
 
-
-
-.cta {
-    background-color: #0a0a08;
-    height: 30px;
-    margin-right: 5px;
-    line-height: 0;
-    font-size: 15px;
-}
-
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease-out;
-    margin-left: 15px;
+    width:100%;
 }
 
 
@@ -429,10 +454,26 @@ a{
 .carousel-item.active.col-3:-child {
    margin-left: 100px;
 }
-  
-.members-text {
-    margin-left: 30px;
+
+.carousell-img-txt{
+    align-items:center;
 }
+.col-4{
+    width: 33.33333333%;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+}
+
+.img-carousell{
+    width: 250px;
+    height: 250px;
+}
+
+.members-text {
+    text-align: center;
+}
+
 
 .anual-tour-title {
     margin-top: 55px;
