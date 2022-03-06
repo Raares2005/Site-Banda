@@ -41,7 +41,6 @@ hr {
 .members h2 {
     color: var(--txtColor);
     text-align: center;
-    
 }
 
 
@@ -174,6 +173,7 @@ button:hover {
 
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease-out;
+    width:100%;
 }
 
 .carousel-control-prev:hover,
@@ -192,11 +192,16 @@ button:hover {
     height: 40px;
     background-color: #C58F00;
 }
- 
 
+.col-4{
+    width: 128px;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+}
   
 .members-text {
-    margin-left: 30px;
+    text-align: center;
 }
 
 
@@ -425,7 +430,7 @@ a{
 
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease-out;
-    margin-left: 15px;
+    width:100%;
 }
 
 
@@ -449,9 +454,24 @@ a{
 .carousel-item.active.col-3:-child {
    margin-left: 100px;
 }
-  
+
+.carousell-img-txt{
+    align-items:center;
+}
+.col-4{
+    width: 33.33333333%;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+}
+
+.img-carousell{
+    width: 250px;
+    height: 250px;
+}
+
 .members-text {
-    margin-left: 30px;
+    text-align: center;
 }
 
 
